@@ -1,2 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="active_by_adb">הפעלה באמצעות מחשב</string>
+    <string name="device_owner_granted">מופעל</string>
+    <string name="device_admin_granted">מפקח מכשיר הופעל אך צריך הרשאת בעלים</string>
+    <string name="device_admin_denied">מחכה להפעלה</string>
+    <string name="active_func_dsp">להרשאת בעל מכשיר יש גישה גבוהה יותר מהרשאת מפקח. ההרשאות לא יאבדו כל עוד לא תכבה אותן.
+\n
+\nאשר יישומים אחרים בזהירות. בעל מכשיר מסוגל לשנות הגדרות מערכת בעזרת קוד, למשל לשלול פונקציות של תוכנה או חומרה ולנטר התנהגויות משתמש.</string>
+    <string name="active">הפעלה</string>
+    <string name="cancel">ביטול</string>
+    <string name="confirm">אישור</string>
+    <string name="finish">סיום</string>
+    <string name="deactivate_failed">הכיבוי נכשל</string>
+    <string name="force_stop">כבה בכוח</string>
+    <string name="dhizuku_permission_group_label">הרשאת Dhizuku</string>
+    <string name="force_stop_dsp">אחרי שבעל המכשיר מופעל בהצלחה, אין למערכת הרשאה לעצור את הרצת יישום בעל המכשיר בכח, אך עדכון היישום דורש את עתירתו קודם, לכן תצטרך לעצור את Dhizuku בכח לפני שתעדכן אותו.</string>
+    <string name="dhizuku_permission_api_dsp">אפשר ליישום אחר להשתמש באישור Dhizuku.</string>
+    <string name="copy">העתקה</string>
+    <string name="home">בית</string>
+    <string name="preferred">הגדרות</string>
+    <string name="active_by_adb_dsp">%1$s&lt;br&gt;&lt;br&gt;* הפעלה באמצעות adb (חבר מחשב)，לך ל &lt;a href=\"https://source.android.google.cn/docs/setup/build/adb\"&gt;Android Debug Bridge (ADB)&lt;/a&gt; לעוד מידע הקשור בADB.</string>
+    <string name="active_by_shizuku">הפעלה באמצעות Shizuku</string>
+    <string name="shizuku_binder_not_received">בדוק אם Shizuku מותקן ומופעל, ואפשר לDhizuku לקבל הרשאת Shizuku.</string>
+    <string name="execution_end">בסדר, בדוק מצב הפעלה.</string>
+    <string name="deactivate">כיבוי</string>
+    <string name="deactivate_dsp">האם אתה בטוח שאתה רוצה לכבות?</string>
+    <string name="deactivate_success">הכיבוי הצליח</string>
+    <string name="copy_success">ההעתקה הצליחה</string>
+    <string name="donate">תרום</string>
+    <string name="alipay">Alipay</string>
+    <string name="wechat">Wechat</string>
+    <string name="binance">Binance</string>
+    <string name="request_permission_text">להסכים לבקשת הרשאת Dhizuku של <b>%1$s</b>\?</string>
+    <string name="request_permission_title">בקשת הרשאת Dhizuku</string>
+    <string name="agree">הענק</string>
+    <string name="refuse">דחה</string>
+    <string name="basic">בסיסי</string>
+    <string name="toast_when_using_dhizuku_dsp">כשתוכנה קוראת לDhizuku, קופצת הודעה</string>
+    <string name="config">תצורה(קונפיגורציה)</string>
+    <string name="toast_when_using_dhizuku">הודעת הרשאה</string>
+    <string name="toast_when_using_dhizuku_content">הDhizuku בשימוש על ידי %1$s</string>
+    <string name="empty_config_dsp">אין יישום המבקש הרשאת Dhizuku</string>
+    <string name="service_channel_name">שירות רקע</string>
+    <string name="service_running">Dhizuku פועל</string>
+</resources>
